@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Topgear RDS Assignment</title>
+<script src="./js/submit.js"></script>
+</head>
+<body>
+	<form action="./Topgear-Assignment/src/servlet/UserServlet"
+		method="get">
+		<table>
+			<tr>
+				<td>Reg No:<input type="text" name="regno"></td>
+				<td>Name :<input type="text" name="name"></td>
+				<td><select name="operation">
+						<option value="select">--Select Any--</option>
+						<option value="create">Insert</option>
+						<option value="read">Read</option>
+						<option value="update">Update</option>
+						<option value="delete">Delete</option>
+				</select></td>
+				<td><input type="submit" value="Process"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
